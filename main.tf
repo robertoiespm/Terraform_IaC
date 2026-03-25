@@ -141,7 +141,7 @@ output "IP_pública" {
 }
 
 output "URL_Acceso_Aplicación" {
-  value = "http://${aws_instance.web_server.public_ip}/index.html"
+  value = "http://${aws_instance.web_server.public_ip}/index.php"
 }
 
 
